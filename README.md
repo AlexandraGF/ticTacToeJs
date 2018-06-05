@@ -9,7 +9,7 @@ Tic Tac Toe - JavaScript
 
 ## How to play directly on the internet
 
-1. Click on the link ``` [Tic Tac Toe Game](https://alexandragf.github.io/ticTacToeJs/) ```
+1. Click on the link [Tic Tac Toe Game](https://alexandragf.github.io/ticTacToeJs/)
 2. Enjoy!
 
 ## How to run the tests (Jasmine testing)
