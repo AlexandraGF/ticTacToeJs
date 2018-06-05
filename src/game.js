@@ -36,3 +36,10 @@ let checkEqual = function (a, b, c, option) {
       return game.won = true
   }
 }
+
+const resetValues = function () {
+  game.option = ''
+  game.totalScore = 0
+  game.arrayOptions = ['', '', '', '', '', '', '', '', '']
+  game.won = false
+  }

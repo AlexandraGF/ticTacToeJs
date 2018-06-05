@@ -41,5 +41,16 @@ describe('Tic Tac Toe', function (){
       expect(game.won).toEqual(false)
    })
 
+   it('Game can be reset any time', function() {
+      resetValues()
+      addOption(1)
+      addOption(3)
+      addOption(0)
+      addOption(4)
+      addOption(2)
+      resetValues()
+      expect(game.won).toEqual(false)
+    })
+
   })
 })
