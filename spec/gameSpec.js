@@ -18,5 +18,14 @@ describe('Tic Tac Toe', function (){
     expect(game.arrayOptions[2]).toEqual('x')
   })
 
+  it('When 3 x\'s or o\'s are on one line, shows the winner', function() {
+      addOption(1)
+      addOption(3)
+      addOption(0)
+      addOption(4)
+      addOption(2)
+      expect(game.won).toEqual(true)
+    })
+
   })
 })
