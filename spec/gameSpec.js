@@ -10,7 +10,13 @@ describe('Tic Tac Toe', function (){
       expect(game.arrayOptions[0]).toEqual('x')
     })
 
-    
+  it('Existing on grid values cannot be replaced', function() {
+    addOption(0)
+    addOption(3)
+    addOption(2)
+    addOption(2)
+    expect(game.arrayOptions[2]).toEqual('x')
+  })
 
   })
 })
