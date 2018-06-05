@@ -1,4 +1,4 @@
-Tic Tac Toe - JavaScript
+## Tic Tac Toe - JavaScript
 
 ## How to play using command line
 
