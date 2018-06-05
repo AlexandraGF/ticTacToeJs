@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" type="text/css" href="public/game.css"></link>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans+Condensed" rel="stylesheet">
+    <script type="text/javascript" src="./src/game.js"></script>
+    <script type="text/javascript" src="./src/interface.js"></script>
+  </head>
+  <body>
+    <h1>Tic Tac Toe</h1>
+
+    <h2><span id="turn">Good Luck!</span></h2>
+    <h2 id="endGame"></h2>
+    <h2><span id="noWinner"></span></h2>
+    <h3><button id="playAgain" onclick="resetAll()" type="button">Play again!</button></h3>
+
+      <table>
+      <tr>
+        <td><button id="b1" onclick="b1()" type="button"></button></td>
+        <td><button id="b2" onclick="b2()" type="button"></button></td>
+        <td><button id="b3" onclick="b3()" type="button"></button></td>
+      </tr>
+      <tr>
+        <td><button id="b4" onclick="b4()" type="button"></button></td>
+        <td><button id="b5" onclick="b5()" type="button"></button></td>
+        <td><button id="b6" onclick="b6()" type="button"></button></td>
+      </tr>
+      <tr>
+        <td><button id="b7" onclick="b7()" type="button"></button></td>
+        <td><button id="b8" onclick="b8()" type="button"></button></td>
+        <td><button id="b9" onclick="b9()" type="button"></button></td>
+      </tr>
+    </table>
+
+    <h2> Developed by <a href="https://github.com/AlexandraGF">Alexandra Fina</a></h2>
+
+  </body>
+</html>
